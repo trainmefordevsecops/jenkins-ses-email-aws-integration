@@ -9,7 +9,7 @@ pipeline {
         }
     post{
         always{
-            emailext to: "trainmefordevsecops@gmail.com",
+            emailext to: "amrit1050070096@gmail.com",
             subject: "Jenkins Test Email",
             body: "Jenkins Test Email from aws ses service"
         }
